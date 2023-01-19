@@ -14,7 +14,7 @@ header {
     padding-top: 5px;
 }
 nav a {
-    color: #606c38;
+    color: #ffffff;
     text-decoration: none;
     text-align: center;
     padding: 35px;
@@ -33,11 +33,10 @@ nav a:hover {
 h4 {
     background-color: #fefae0;
     color: #000000;
-    margin: 0;
 }
 .book, .join {
-    background-color: #606c38;
-    color: #bc6c25;
+    background-color:  #606c38;
+    color: #ffffff;
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
@@ -50,7 +49,12 @@ h4 {
 }
 #background {
     height: 725px;
-    background-color: #fefae0;
+    background-color: #dda15e;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+#mountain {
+    margin-bottom: 200px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -81,18 +85,20 @@ main section {
     text-align: center;
 }
 .card-img {
-    border: 10px soild #d9c2a3;
+    background: #bc6c25;
+    padding: 10px;
+    border: 10px soild #000000;
 }
 .main section img {
     box-sizing: border-box;
 }
 footer  {
-    background-color: #606c38;
-    color: #000000;
+    background-color:  #606c38;
+    color: #ffffff;
     margin-top: 200px;
 }
 footer a {
-    color: #606c38;
+    color: #ffffff;
     text-decoration: none;
 }
 footer a:hover {
