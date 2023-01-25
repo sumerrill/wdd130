@@ -25,6 +25,7 @@ nav a {
     text-decoration: none;
     text-align: center;
     padding: 35px;
+    font-family: Roboto;
 }
 nav a:hover {
     color:#ffffff;
