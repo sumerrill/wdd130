@@ -102,17 +102,17 @@ nav a:hover {
 .icon {
     width: 80px;
 }
-.rivers-card {
+.love-card {
     margin-top: 200px;
     grid-column: 2/4;
     grid-row: 2/3;
 }
-.camping-card {
+.products-card {
     margin-top: 200px;
     grid-column: 5/7;
     grid-row: 2/3;
 } 
-.rapids-card {
+.flavors-card {
     margin-top: 200px;
     grid-column: 8/10;
     grid-row: 2/3;
