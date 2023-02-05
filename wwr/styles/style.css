@@ -102,6 +102,10 @@ nav a:hover {
 .icon {
     width: 80px;
 }
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
 .rivers-card {
     margin-top: 200px;
     grid-column: 2/4;
@@ -124,9 +128,6 @@ nav a:hover {
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #000000;
 }
-.msg h1 {
-    background-color: #000000;
-}
 .msg h2 {
     background-color: #606c38;
     color: #000000;
@@ -144,10 +145,6 @@ nav a:hover {
 }
 main section {
     text-align: center;
-}
-.home-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 .main section img {
     box-sizing: border-box;
