@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=Solitreo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto&family=Rock+Salt&display=swap');
 body {
     max-width: 1600px;
     margin: 0 auto;
     padding: 0;
-    background-color: #ffffff;
-    font-family: Solitreo;
+    background-color: #fefae0;
+    font-family: Roboto;
     font-size: 22px;
 }
 header {
@@ -25,7 +25,7 @@ nav a {
     text-decoration: none;
     text-align: center;
     padding: 35px;
-    font-family: Solitreo;
+    font-family: Roboto;
 }
 nav a:hover {
     color:#000000;
@@ -38,7 +38,7 @@ nav a:hover {
     margin-top: 10px;
 }    
 .order {
-    background-color: #bc6c25;
+    background-color: #dda15e;
     color: #000000;
     text-decoration: none;
     font-size: 18px;
@@ -59,10 +59,12 @@ nav a:hover {
     grid-column: 1/4;
     grid-row: 1/3;
     z-index: -1;
+    margin-bottom: -6%;
 }  
 #hero-msg h4 {
     text-align: center;
     color: #000000;
+    margin-top: -65px;
 }
 #hero-msg {
     grid-column: 2/3;
@@ -71,105 +73,60 @@ nav a:hover {
 }
 #hero-img {
     width: 100%;
-    height: 100%;
+    height: 83%;
+}
+.card-img {
+    width: 100%;
+    height: 50%;
+    border: 5px solid #dda15e;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #000000;
+}
+.card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
 }
 .logo {
     width: 80px;
 }
+.love-card {
+    margin-top: 200px;
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+.products-card {
+    margin-top: 200px;
+    grid-column: 5/7;
+    grid-row: 2/3;
+} 
+.flavors-card {
+    margin-top: 200px;
+    grid-column: 8/10;
+    grid-row: 2/3;
+}
 .button-box {
     text-align: center;
 }
-.main {
-    width: 1170px;
-    margin: 100px auto;
-}
-.section-title {
+body h1{
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
-.section-title h2 {
-    text-transform:capitalize;
-    font-size: 35px;
-    position: relative;
-    display: inline-block;
-    padding-bottom: 20px;
-    margin-bottom: 10px;
-    font-family: Solitreo;
-}
-.section-title h2::before {
-    content: '';
-    position: absolute;
-    width: 60px;
-    height: 3px;
-    background-color: #264653;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-}
-.menus {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-.menu-column {
-    width: 30%;
-}
-.menu-column h4 {
-    text-transform: capitalize;
-    font-size: 24px;
-    font-weight: 600;
-    margin-bottom: 20px;
-    position: relative;
-    padding-bottom: 10px;
+body p{
     text-align: center;
-}
-.menu-column h4::before {
-    content: '';
-    position: absolute;
-    width: 40px;
-    height: 2px;
-    background-color: #264653;
-    bottom: 0;
-}
-.single-menu {
-    display: flex;
-    align-items: center;
-    margin-top: 40px; 
-}
-.single-menu img {
-    border-radius: 50%;
-    max-width: 200px;
-    border: 1px dahsed #ffffff;
-    padding: 3px;
-    margin-right: 15px;
-}
-.single-menu, .menu-content h5 {
-    text-transform: capitalize;
-    font-size: 22px;
-    font-weight: 600;
-    border-bottom: 1px dashed #000000;
-    padding-bottom: 5px;
-    margin-bottom: 10px;
-}
-.single-menu {
-    color: #000000;
-    float: right;
-    font-weight: 500;
-    font-style: italic;
-}    
-.menu-content h5 span, .section-title p span {
-    color: tomato;
-    float: right;
-    font-weight: 500;
-    font-style: italic;
-}
-.paragraph {
-    text-align: center;
-    margin-top: 100px;
     line-height: 50px;
 }
+main section {
+    text-align: center;
+}
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.main section img {
+    box-sizing: border-box;
+}
 footer  {
-    background-color:  #264653;
+    background-color:  #606c38;
     color: #ffffff;
     padding: 100px 0 30px;
     border-top-left-radius: 125px;
@@ -185,12 +142,8 @@ footer a {
     text-decoration: none;
 }
 footer a:hover {
-    background-color: #264653;
+    background-color: #606c38;
     color: #000000;
-}
-footer p{
-    text-align: center;
-    line-height: 50px;
 }
 .information {
     width: 85%;
@@ -205,7 +158,7 @@ footer p{
     margin-top: 15px;
 }
 @media screen and (max-width: 900px) {
-    #hero {
+    #hero, .home-grid {
         display: block;
         height: auto;
     }
@@ -229,18 +182,17 @@ footer p{
         font-size: 25px;
         color: #6f7364;
     }
-    .main {
-        width: 100%;
+    .love-card, .products-card, .flavors-card { 
+        margin: 50px auto;
+        width: 60%;
     }
-    .menu-column {
-        width: 100%;
-        margin-bottom: 60px;
+    #background {
+        display: none;
     }
-    .single-menu {
-        flex-direction: column;
-    }
-    .single-menu img {
-        margin-bottom: 25px;
+    .catering, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
     }
     footer {
         margin-top: 25px;
