@@ -3,7 +3,7 @@ body {
     max-width: 1600px;
     margin: 0 auto;
     padding: 0;
-    background-color: #ffffff;
+    background-color: #fefae0;
     font-family: Solitreo;
     font-size: 22px;
 }
@@ -38,7 +38,7 @@ nav a:hover {
     margin-top: 10px;
 }    
 .order {
-    background-color: #bc6c25;
+    background-color: #bb9457;
     color: #000000;
     text-decoration: none;
     font-size: 18px;
@@ -47,7 +47,7 @@ nav a:hover {
     border-radius: 5px;
 }
 .order:hover {
-    background-color: #bc6c25;
+    background-color: #bb9457;
     color: #000000;
 }
 #hero {
@@ -76,7 +76,7 @@ nav a:hover {
 }
 #background {
     height: 725px;
-    background-color: #bc6c25;
+    background-color: #bb9457;
     margin-top: 200px;
     margin-bottom: 200px;
     grid-column: 1/11;
@@ -93,19 +93,19 @@ nav a:hover {
     width: 80px;
 }
 .msg {
-    background-color: #264653;
+    background-color: #606c38;
     padding: 35px;
     grid-column: 6/10;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #000000;
 }
 .msg h2 {
-    background-color: #264653;
+    background-color: #606c38;
     color: #000000;
     font-family: Solitreo;
 }
 .msg p {
-    background-color: #264653;
+    background-color: #606c38;
     color: #000000;
     font-size: .8em;
     line-height: 1.5em;
@@ -145,7 +145,7 @@ iframe {
     height: 700px;
 }
 footer  {
-    background-color:  #264653;
+    background-color:  #606c38;
     color: #ffffff;
     padding: 100px 0 30px;
     border-top-left-radius: 125px;
@@ -161,7 +161,7 @@ footer a {
     text-decoration: none;
 }
 footer a:hover {
-    background-color: #264653;
+    background-color: #606c38;
     color: #000000;
 }
 footer p{
@@ -203,7 +203,7 @@ footer p{
     }
     .home-title {
         font-size: 25px;
-        color: #6f7364;
+        color: #606c38;
     }
     #background {
         display: none;
