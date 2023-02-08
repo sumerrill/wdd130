@@ -133,11 +133,11 @@ main section {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-bottom: -200px;
+    margin-bottom: -100px;
 }
 h2 {
     color: #000000;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     font-family: Solitreo;
 }
 iframe {
